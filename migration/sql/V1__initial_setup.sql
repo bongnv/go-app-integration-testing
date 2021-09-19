@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS sample_table (
+  id INT PRIMARY KEY,
+  name TEXT NOT NULL
+);
