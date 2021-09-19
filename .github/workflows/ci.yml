@@ -40,7 +40,7 @@ jobs:
           url: jdbc:postgresql://postgres:5432/postgres
           user: postgres
           password: postgres
-          locations: filesystem:./test/migration/sql
+          locations: filesystem:./migration/sql
       - uses: actions/cache@v2
         with:
           path: ~/go/pkg/mod
